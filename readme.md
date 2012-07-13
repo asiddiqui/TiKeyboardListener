@@ -11,13 +11,17 @@ They say a picture is worth a thousand word! http://www.screenr.com/5xc8
 
 First require the module:
 
+```js
 var keyboardListener = require('net.iamyellow.tikeyboardlistener');
+```
 
 then create a container view where you're going to add other views (ScrollView, etc.):
 
+```js
 var container = keyboardListener.createView({
 	backgroundColor: '#fff'
 });
+```
 
 That view is just a common plain view, but:
 
@@ -25,8 +29,6 @@ That view is just a common plain view, but:
 * its top is set to 0
 * you can add listeners for events 'keyboard:show' and 'keyboard:hide'
 * listener callbacks has a single argument with two properties: 'height' (the view height) and 'keyboardHeight' (need help? ;))
-
-- 
 
 ## Example
 
