@@ -15,4 +15,4 @@ name: tikeyboardlistener
 moduleid: net.iamyellow.tikeyboardlistener
 guid: 48556ddf-0d85-4e4e-afc0-c430bd449826
 platform: iphone
-minsdk: 2.2.0
+minsdk: 2.0.2
